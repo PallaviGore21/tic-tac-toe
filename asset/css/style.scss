@@ -1,0 +1,10 @@
+@import "./reboot";
+@import "./variables";
+@import "./utility";
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid $primary;
+    transition: all 0.3s;
+}
